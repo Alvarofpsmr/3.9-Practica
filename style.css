@@ -1,0 +1,57 @@
+h1.titulo{
+text-align: center;
+color: black;
+}
+img.float1{
+    float: left;
+}
+img.float2{
+    float: right;
+    width: 250px;
+    height: 160px;
+
+}
+h2{
+    color: white;
+    text-align: center;
+}
+div.header{
+    width: 1900px;
+    height: 150px;
+    background-color: rgb(255, 123, 0);
+}
+
+div.body{
+    width: 1900px;
+    height: 690px;
+    background-color: black;
+
+}
+p{
+    color: white;
+    display: inline;
+}
+h3{
+    color: white;
+    text-align: center;
+}
+div.quien{
+    display: inline-block;
+    width: 750px;
+    height: 150px;
+}
+div.espacio{
+width: 300px;
+height: 150px;
+display: inline-block;
+}
+div.espacio2{
+    width: 30px;
+    height: 150px;
+    display: inline-block;
+}
+div.estadio{
+    display: inline-block;
+    width: 750px;
+    height: 150px;
+}
