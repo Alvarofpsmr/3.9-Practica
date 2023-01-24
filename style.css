@@ -24,6 +24,7 @@ div.header {
     width: 1900px;
     height: 150px;
     background-color: rgb(255, 123, 0);
+    margin-bottom: 0%;
 }
 
 div.t1 {
@@ -48,7 +49,10 @@ p {
     color: white;
     display: inline;
 }
-
+p.p{
+    display: block;
+    color: rgb(255, 123, 0);
+}
 /* Estilos para la sección "Quién somos" */
 div.quien {
     display: inline-block;
@@ -80,15 +84,47 @@ a {
     color: white;
 }
 form{
-    background-color: black;
-    color: white;
+position: relative;
+top: 10px;
+left: 5%;
+    color: rgb(255, 123, 0);
+    text-align: left;
 }
 a.home{
     color: black;
+    position: relative;
+    left: 5%;
+}
+td{
+    display: inline-block;
+    align-self: center;
+    position: relative;
+    left: 50%;
+}
+tr{
+    display: inline-block;
+    align-items: center;
+    position: relative;
+    left: 40%;
+}
+td.td{
+color:rgb(255, 123, 0);
+transform: rotate(270deg);
+text-decoration: underline;
 }
 div.info{
-    height: 200px;
-    color: white;
-    background-color: black;
-
+    position: relative;
+    left: 5%;
+    height: 250px;
+    color: black;
+    background-color: white;
+    text-align: center;
 }
+h1.sol{
+    color: rgb(255, 123, 0);
+}
+img.plantilla {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+  }
