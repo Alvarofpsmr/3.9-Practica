@@ -26,6 +26,12 @@ div.header {
     background-color: rgb(255, 123, 0);
 }
 
+div.t1 {
+    width: 1900px;
+    height: 150px;
+    background-color: rgb(255, 123, 0);
+    text-align: center;
+}
 /* Estilos para el cuerpo del contenido */
 h2, h3 {
     color: white;
@@ -72,4 +78,17 @@ div.estadio {
 /* Estilos para los enlaces */
 a {
     color: white;
+}
+form{
+    background-color: black;
+    color: white;
+}
+a.home{
+    color: black;
+}
+div.info{
+    height: 200px;
+    color: white;
+    background-color: black;
+
 }

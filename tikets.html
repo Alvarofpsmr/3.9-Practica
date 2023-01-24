@@ -2,15 +2,21 @@
 <html>
 <head>
   <title>Solicitud de entradas</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <h1>Solicitud de entradas para el partido</h1>
+<body class="cuerpo">
+  <img class="float1" src="img/valencia-cf-logo-escudo.svg" alt="imagen del escudo del valencia" width="150px" height="150px">
+  <div class="header">
+      <br>
+      <h1 class="titulo">Venta de entradas</h1>
+      <h2><a href="plantilla.html">La plantilla</a>  -  <a href="tikets.html">Venta de tikets</a>  -  <a href="donde.html">¿Donde estamos?</a></h2>
+  </div>
   <form>
     <label for="name">Nombre:</label>
     <input type="text" id="name" name="name"><br><br>
     <label for="email">Email:</label>
     <input type="email" id="email" name="email"><br><br>
-    <label for="numEntradas">Número de entradas:</label>
+    <label for="numEntradas">Numero de entradas:</label>
     <input type="number" id="numEntradas" name="numEntradas"><br><br>
     <label for="jornada">Jornada:</label>
     <select id="jornada" name="jornada">
@@ -18,13 +24,14 @@
       <option value="jornada2">Jornada 2</option>
       <option value="jornada3">Jornada 3</option>
     </select><br><br>
-    <label for="seccion">Sección:</label>
+    <label for="seccion">Seccion:</label>
     <select id="seccion" name="seccion">
       <option value="general">General</option>
       <option value="palco">Palco</option>
       <option value="vip">VIP</option>
     </select><br><br>
-    <input type="submit" value="Solicitar entradas" onclick="alert('Solicitud enviada. Espera nuestra respuesta en tu correo electrónico.')">
+    <input type="submit" value="Solicitar entradas" onclick="alert('Entradas solicitadas correctamente, se las enviaremos al correo lo antes posibles.')">
   </form>
+  <h2><a class="home" href="index.html">HOME</a></h2>
 </body>
 </html>
